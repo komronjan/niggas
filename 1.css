@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container .main {
+  background-image: url(./background\ \(1\).png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .first {
+  display: flex;
+  gap: 100px;
+  font-family: Martel;
+  color: #252b42;
+}
+.container ul {
+  font-family: Open Sans;
+  color: #737373;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+.container .nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.container .c1 {
+  width: 85%;
+  margin-left: auto;
+}
+.container .icon {
+  margin-right: 10vh;
+  color: #737373;
+}
+.container .text {
+  margin-top: 15vh;
+  color: #252b42;
+  font-family: Martel;
+  width: 509px;
+  font-weight: bolder;
+  font-size: 200%;
+}
+.container .text h3 {
+  width: 250px;
+  line-height: 60px;
+}
+.container .text p {
+  font-size: 100%;
+  font-weight: 400;
+  width: 450px;
+  font-family: Montserrat;
+  margin-top: 5vh;
+  color: #737373;
+  margin-left: 0;
+}
+.container .lol button {
+  font-family: Open Sans;
+  font-weight: 700;
+  margin-top: 5vh;
+  border-radius: 50px;
+  height: 7vh;
+  width: 182px;
+}
+.container .lol :nth-child(1) {
+  border: 1px solid #784f33;
+  color: white;
+  background-color: #784f33;
+}
+.container .lol :nth-child(2) {
+  border: 2px solid #784f33;
+  color: #784f33;
+}
+.container .main2 {
+  display: flex;
+  justify-content: space-between;
+}
+.container .text2 p {
+  font-family: Open Sans;
+  width: 199px;
+  color: #737373;
+  font-weight: 400;
+}
+.container .text2 {
+  background-color: #fff;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.0705882353);
+  width: 328px;
+  height: 210px;
+  margin-top: 10vh;
+}
+.container .text2 img, .container h1, .container p {
+  margin-left: 5vh;
+  margin-top: 20px;
+}
+.container .text3 p {
+  font-family: Open Sans;
+  width: 199px;
+  color: #737373;
+  font-weight: 400;
+}
+.container .text3 {
+  background-color: #fff;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.0705882353);
+  width: 328px;
+  height: 210px;
+  margin-top: 10vh;
+}
+.container .text3 img,
+.container h1,
+.container p {
+  margin-left: 5vh;
+  margin-top: 20px;
+}
+.container .text4 p {
+  font-family: Open Sans;
+  width: 199px;
+  color: #fff;
+  font-weight: 400;
+}
+.container .text4 {
+  margin-right: 10vh;
+  color: white;
+  background-color: #295c7a;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.0705882353);
+  width: 328px;
+  height: 210px;
+  margin-top: 10vh;
+}
+.container .text4 img,
+.container h1,
+.container p {
+  margin-left: 5vh;
+  margin-top: 20px;
+}
+.container .main3 {
+  margin-top: 20vh;
+}
+.container .te1 {
+  text-align: center;
+  margin-left: -15vh;
+}
+.container .te1 h1 {
+  font-family: Martel;
+  font-weight: 400;
+  font-size: 250%;
+  font-weight: bold;
+}
+.container .te1 p {
+  line-height: 25px;
+  color: #737373;
+  margin-left: 57vh;
+  font-family: Open Sans;
+  font-weight: 400;
+  width: 468px;
+}
+.container .pop {
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.0705882353);
+  width: 20%;
+  height: 20vh;
+}
+.container .pop img {
+  margin-left: 6vh;
+}
+.container .second {
+  margin-top: 10vh;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.container .ioi {
+  margin-top: 20vh;
+  margin-left: 40vh;
+  width: 470px;
+  text-align: center;
+}
+.container .ioi p {
+  line-height: 30px;
+  font-family: Open Sans;
+  color: #737373;
+}
+.container .ioi h1 {
+  font-family: Martel;
+  font-size: 250%;
+}
+.container .ioi2 {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+.container .ioi2 h3 {
+  color: #252b42;
+  margin-left: 9vh;
+  font-weight: 700;
+  width: 100px;
+  font-family: Martel;
+}
+.container .ioi2 p {
+  width: 170px;
+  font-family: Open Sans;
+  color: #737373;
+}
+.container .ioi2 .qw {
+  width: 200px;
+}
+.container .ioi2 .qe {
+  width: 150px;
+}
+.container .joj {
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.0705882353);
+}
+.container .joj img {
+  margin-top: 5vh;
+}
+.container .te2 {
+  text-align: center;
+  margin-top: 15vh;
+}
+.container .te2 h1 {
+  margin-left: -10vh;
+  font-family: Martel;
+  font-weight: 700;
+  color: #252b42;
+  font-size: 250%;
+}
+.container .te2 p {
+  width: 468px;
+  color: #737373;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 50vh;
+}
+.container .te3 {
+  margin-top: 15vh;
+  display: flex;
+}
+.container .te3 .jojo {
+  background-image: url(media\ bg-cover.png);
+  width: 597px;
+  height: 442px;
+}
+.container .te3 .jojo img {
+  cursor: pointer;
+  margin-top: 25vh;
+  margin-left: 35vh;
+}
+.container .ljk {
+  margin-top: 20px;
+  margin-left: 4vh;
+  display: flex;
+}
+.container .te4 {
+  margin-left: 10vh;
+}
+.container .te4 .jok {
+  margin-top: 4vh;
+}
+.container .te4 h1 {
+  font-family: Martel;
+  font-weight: 700;
+  color: #252b42;
+  width: 301px;
+}
+.container .te4 .mom {
+  width: 306px;
+  color: #737373;
+}
+.container .te4 .kok {
+  margin-left: 20px;
+}
+.container .te4 .kok h5 {
+  width: 230px;
+  font-family: Martel;
+  font-weight: bold;
+}
+.container .te4 .kok p {
+  font-size: 70%;
+  font-family: Open Sans;
+  color: #737373;
+  margin-left: 0vh;
+  margin-top: -0.5vh;
+}
+.container .main6 {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+.container .main6 :nth-child(6) {
+  margin-right: 4vh;
+}/*# sourceMappingURL=1.css.map */
